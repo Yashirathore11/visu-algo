@@ -96,6 +96,10 @@
 .container{
     margin-top: 40px;
 }
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .card{
     border:none;
 }

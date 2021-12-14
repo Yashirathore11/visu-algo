@@ -19,7 +19,7 @@ return(
         <div id="particles-js"></div>
         <div className="hometop">
             <div className="link">
-                <div onClick={() => window.open("https://github.com/Yashirathore11/Visualgo", "_blank")}>
+                <div onClick={() => window.open("https://github.com/Yashirathore11/visu-algo", "_blank")}>
                     <Github/>
                 </div>
 

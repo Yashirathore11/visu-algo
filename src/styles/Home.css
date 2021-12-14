@@ -1,0 +1,217 @@
+.backgroundHome {
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: #191919;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.hometop {
+    position: absolute;
+    height: 70%;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0 0 0;
+    height: 110px;
+    cursor: pointer;
+    justify-content: space-around;
+    white-space: nowrap;
+}
+
+.link div {
+    cursor: pointer;
+    fill: #ffffff;
+}
+
+.link div svg {
+    height: 5vh;
+    width: auto;
+}
+.link h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-content {
+    height: calc(100% - 110px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.main-content .btn {
+    display: table;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-content .btn-success{
+    background-color: #2ED327;
+    color: white;
+}
+.main-content .btn-success:hover{
+    background-color: white;
+    color: #2ED327;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content p {
+        font-size: 14px;
+        width: 98%;
+    }
+    .link a {
+        /*display: none;*/
+        font-size: 10px;
+    }
+    .link h1{
+        font-size: 25px;
+    }
+}
+
+.container{
+    margin-top: 40px;
+}
+.card{
+    border:none;
+}
+.card-title{
+    text-align: center;
+    color:#2ED327;
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;
+    font-weight: medium;
+    color: #bebebe;
+}
+.card-body .btn {
+    display: table;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card-body .btn-outline-success{
+    color:#2ED327;
+    border-color: #2ED327;
+}
+.card-body .btn-outline-success:hover{
+    background-color: #2ED327;
+    color: #ffffff;
+}
+.container1{
+    margin-top: 40px;
+    background-color: #191919;
+}
+.col-sm{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+.card-title{
+    font-size: 1rem;
+}
+.teams {
+    padding: 50px 0;
+    background: rgba(25, 25, 25, 1);
+}
+.teams h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+.teams h1 span {
+    color: #2ED327;
+}
+.teams .teamCard {
+    width: 350px;
+    height: 450px;
+    background: rgba(25, 25, 25, .51);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #2ED327;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px #2ED327, 0 10px 10px #2ED327;
+}
+.teamCard h5 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+.teamCard p {
+    text-align: center;
+    width: 300px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.teamCard .teamIconWrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 10px auto;
+}
+.teamCard a {
+    text-decoration: none;
+}
+.teamCard .teamIconWrapper i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: #2ED327;
+    color: white;
+}
+.teamCard .teamIconWrapper i:hover {
+    background-color: rgba(25, 25, 25, 1);
+    color: #2ED327;
+}
+
+.teams .teamCard img {
+    width: 200px;
+    height: 200px;
+    /* border-style: solid; */
+}
+.cli .btn-success{
+    position: absolute; top: 10px; right: 10px;
+    background-color: #2ED327;
+    color: white;
+}
+.cli .btn-success:hover{
+    background-color: white;
+    color: #2ED327;
+}

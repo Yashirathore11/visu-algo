@@ -1,0 +1,212 @@
+td {
+    border: 1px solid #2ED327;
+    width: 25px;
+    height: 25px;
+}
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.headerColor{
+  background-color: #191919;
+}
+.navColor{
+  color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #2ED327;
+  padding-top: 0.8rem;
+}
+.form-inline .btn-success{
+  background-color: #2ED327;
+  color: white;
+  margin-right: 1em;
+}
+.form-inline .btn-success:hover{
+  background-color: white;
+  color: #2ED327;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.node_start{
+    background: url("../assets/cat.png");
+    background-size: cover;
+}
+.node_end{
+    background: url("../assets/mouse.png");
+    background-size: cover;
+}
+.node_wall{
+  /* background: url("../assets/asteroid.svg"); */
+    animation: pulse 0.5s 1;
+    background-color: #202220;
+    border: 1px solid #202220;
+}
+@keyframes wallAnimation {
+  0% {
+    transform: scale(0.4);
+    background-color: #202220;
+    border-radius: 30%;
+  }
+
+  50% {
+    transform: scale(0.6);
+    background-color: #202220;
+    border-radius: 20%;
+  }
+
+  75% {
+    transform: scale(0.8);
+    background-color: #202220;
+    border-radius: 10%;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #202220;
+    border: 1px solid #202220;
+  }
+}
+.node-wall-animated {
+  animation-name: wallAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pulse{
+    0%{
+      background-color: grey;
+
+    }
+    100%{
+      background-color: #202220;
+    }
+}
+.node_visited{
+  /* background-color: lightseagreen; */
+  background-color: rgba(4, 0, 255, 0.5);
+  animation-name: visited;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes visited{
+  0% {
+    transform: scale(0.3);
+    background-color: rgba(255, 0, 191, 0.5);
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color:  rgba(255, 0, 191, 0.5);
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: rgba(4, 0, 255, 0.5);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color:rgba(4, 0, 255, 0.5);
+  }
+}
+.node_path{
+  background-color: greenyellow;
+  animation-name: path_anime;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes path_anime{
+  0% {
+    transform: scale(0.3);
+    background-color: red;
+    border-radius: 100%;
+}
+50% {
+    background-color: orange;
+}
+100% {
+    transform: scale(1);
+    background-color: yellow;
+}
+}
+
+.progress2 {
+  border-radius: 30px;
+  background-color: gray;
+}
+
+.progress-bar2 {
+  height: 5px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  background-color: #f3c623;
+  animation: progress 5s 1;
+}
+@keyframes progress {
+  0% {
+    width: 0%;
+    background: #f9bcca;
+  }
+
+  60% {
+    /* width: 60%; */
+    background: #f3c623;
+    box-shadow: 0 0 40px #f3c623;
+  }
+}
+.progress-text{
+  color:#2ED327;
+}
+.c{
+  color: #fff;
+}
+.progress-text:hover .comment{
+  display: block;
+}
+.progress-text:hover .span-text{
+  display: none;
+}
+.comment{
+  display: none;
+}
+.info-title{
+  font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 1.235;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,97 @@
+.buttons-bar {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* overflow-y: auto; */
+}
+
+button,
+.input-field {
+  height: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 50vw;
+  font-size: medium;
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+input {
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 969px) {
+  input {
+    width: 5rem;
+  }
+}
+@media only screen and (max-width: 897px) {
+  .input-field {
+    height: 1.4rem;
+  }
+}
+@media only screen and (max-width: 541px) {
+  button {
+    height: 1.5rem;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  button,
+  .input-field {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  button,
+  .input-field {
+    font-size: xx-small;
+  }
+}
+
+button:hover {
+  font-style: bold;
+  border-width: 0.3vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonStyle1:hover {
+  border-color: green;
+  color: green;
+}
+
+.buttonStyle2:hover {
+  border-color: peru;
+  color: peru;
+}
+
+#reset {
+  background-color: #2ed327;
+}
+
+button:disabled,
+.buttonStyle1:disabled,
+.buttonStyle2:disabled,
+#reset:disabled {
+  background-color: grey;
+  color: white;
+  border-width: 0vw;
+  opacity: 1;
+  cursor: not-allowed;
+}

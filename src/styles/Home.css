@@ -96,7 +96,7 @@
 .container{
     margin-top: 40px;
 }
-.container .row{
+.container .rows{
     display: flex;
     flex-wrap: wrap;
 }

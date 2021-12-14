@@ -47,7 +47,7 @@ return(
                 </div>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="rows">
                     <div className="col-sm">
                         <div className="card">
                             <img src={Sorting} className="card-img-top" height="157px" />

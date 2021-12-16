@@ -336,13 +336,13 @@ class Pathfinding extends Component{
                             {this.state.method}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#" onClick={()=>this.setState({method:"Dijkstra's Algorithm"})}>Dijkstra's Algorithm</a>
+                                <a class="dropdown-item" href={() => false} onClick={()=>this.setState({method:"Dijkstra's Algorithm"})}>Dijkstra's Algorithm</a>
                                 {/* <a class="dropdown-item" href="#" onClick={()=>this.setState({method:"A* Search"})}>A* Search</a> */}
                                 {/* <a class="dropdown-item" href="#" onClick={()=>this.setState({method:"Breath First Search"})}>Breath First Search</a> */}
                             </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#" onClick={()=>this.makeGrid()}>Clear <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href={() => false} onClick={()=>this.makeGrid()}>Clear <span class="sr-only">(current)</span></a>
                         </li>
                         {/* <li className="nav-item">
                         <a className="nav-link" href="#" onClick={this.showModal}>Instructions <span className="sr-only" >(current)</span></a>

@@ -38,16 +38,16 @@ return(
             <div className={"main-content"}>
                 <div>
                     <p>
-                        Algorithm visualization illustrates how algorithms work in a graphical way.
-                        It mainly aims to simplify and deepen the understanding of algorithms operation.
-                        We Introduce Visualgo for visualising data structures and algorithms through animation.
+                    Algorithm visualization illustrates how algorithms work graphically. 
+                    It mainly aims to simplify and deepen the understanding of the algorithmic operations. 
+                    We Introduce Visualgo for visualizing data structures and algorithms through animation.
                     </p>
                     <Link to={"/cli"} className={"btn btn-success"}>Learn Algorithms</Link>
                     {/*<a href="/Visualgo/cli" className="btn btn-success">Learn Algorithms</a>    */}
                 </div>
             </div>
             <div className="container">
-                <div className="rows">
+                <div className="row">
                     <div className="col-sm">
                         <div className="card">
                             <img src={Sorting} className="card-img-top" height="157px" />

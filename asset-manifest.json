@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/visu-algo/static/css/main.7acf05cb.chunk.css",
-    "main.js": "/visu-algo/static/js/main.1e30b901.chunk.js",
-    "main.js.map": "/visu-algo/static/js/main.1e30b901.chunk.js.map",
+    "main.js": "/visu-algo/static/js/main.fa322eb1.chunk.js",
+    "main.js.map": "/visu-algo/static/js/main.fa322eb1.chunk.js.map",
     "runtime-main.js": "/visu-algo/static/js/runtime-main.27902894.js",
     "runtime-main.js.map": "/visu-algo/static/js/runtime-main.27902894.js.map",
     "static/js/2.a84b9770.chunk.js": "/visu-algo/static/js/2.a84b9770.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.27902894.js",
     "static/js/2.a84b9770.chunk.js",
     "static/css/main.7acf05cb.chunk.css",
-    "static/js/main.1e30b901.chunk.js"
+    "static/js/main.fa322eb1.chunk.js"
   ]
 }
